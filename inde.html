@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+       
+    </style>
+</head>
+<body>
+    <!-- dom = document object model
+    bom = browser object model -->
+    <div class="promt">
+        <h3>Javascript prompt</h3>
+    <p id="demo"></p>
+    <button onclick="myFun()">try it</button>
+    </div>
+
+    <div class="alert">
+        <h3>Javascript setTimeout and clearTimeout </h3>
+    <button onclick="myvar = setTimeout(alertFun, 3000)">try it</button>
+    <button onclick="clearTimeout(myvar)">Stop Function exicution befor 3 seconds</button>
+    </div>
+    
+
+    <div class="timing">
+        <h3>Javascript Timing </h3>
+    <p id="time"></p>
+    
+    <h3>Stop Timing by clearInterval</h3>
+    <button onclick="clearInterval(timeStart)">Stop timing</button>
+    <button onclick="timeStart = setInterval(myTimer, 1000 )">start timing</button>
+    </div>
+    
+
+
+    <script src="main.js"></script>
+</body>
+</html>

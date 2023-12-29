@@ -1,0 +1,39 @@
+body{
+    background-color: rgba(0, 128, 0, 0.3);
+    text-align: center;
+}
+.promt{
+    display: block;
+    margin: 20px auto;
+    background-color: bisque;
+    padding: 20px;
+    width: 50%;
+    text-align: center;
+}
+.alert{
+    display: block;
+    margin: 20px auto;
+    background-color: darkgray;
+    padding: 20px;
+    width: 50%;
+    text-align: center;
+}
+.timing{
+    display: block;
+    margin: 20px auto;
+    background-color: rgb(1, 17, 49);
+    color: #fff;
+    padding: 20px;
+    width: 50%;
+    text-align: center;
+}
+button{
+    padding: 10px;
+    background: dodgerblue;
+    color: white;
+    border-radius: 5px;
+}
+button:hover{
+    background: #FFA500;
+    color: black;
+}
